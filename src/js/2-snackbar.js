@@ -79,10 +79,6 @@ body {
     height: 40px;
     }
 
-.form input[name="state"] {
-
-}
-
 legend {
     font-weight: 400;
     line-height: 150%;
