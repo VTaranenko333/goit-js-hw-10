@@ -1,4 +1,4 @@
-import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{i as o}from"./assets/vendor-BbbuE1sJ.js";const n=document.querySelector(".form"),p=n.querySelector('input[name="delay"]'),d=n.querySelectorAll('input[name="state"]');function l(t,i){return new Promise((r,e)=>{setTimeout(()=>{i==="fulfilled"?r(t):e(t)},t)})}n.addEventListener("submit",t=>{t.preventDefault();const i=Number(p.value),r=Array.from(d).find(e=>e.checked).value;l(i,r).then(e=>{o.success({title:"Success",message:`✅ Fulfilled promise in ${e}ms`})}).catch(e=>{o.error({title:"Error",message:`❌ Rejected promise in ${e}ms`})})});const a=`
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{i as n}from"./assets/vendor-BbbuE1sJ.js";const o=document.querySelector(".form"),p=o.querySelector('input[name="delay"]'),d=o.querySelectorAll('input[name="state"]');function l(t,i){return new Promise((r,e)=>{setTimeout(()=>{i==="fulfilled"?r(t):e(t)},t)})}o.addEventListener("submit",t=>{t.preventDefault();const i=Number(p.value),r=Array.from(d).find(e=>e.checked).value;l(i,r).then(e=>{n.success({title:"Success",message:`✅ Fulfilled promise in ${e}ms`})}).catch(e=>{n.error({title:"Error",message:`❌ Rejected promise in ${e}ms`})})});const a=`
 * {
     padding: 0;
     box-sizing: border-box;
@@ -38,10 +38,6 @@ body {
     width: 360px;
     height: 40px;
     }
-
-.form input[name="state"] {
-
-}
 
 legend {
     font-weight: 400;
