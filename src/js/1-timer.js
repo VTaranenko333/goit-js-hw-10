@@ -187,14 +187,14 @@ line-height: 150%;
 color: #2e2f42;
 }
 
-.ico-error {
-border-bottom: 2px solid #ffbebe;
-border-radius: 4px;
-padding: 20px;
-width: 302px;
-height: 64px;
-background: #ef4040;
-}
+// .ico-error {
+// border-bottom: 2px solid #ffbebe;
+// border-radius: 4px;
+// padding: 20px;
+// width: 302px;
+// height: 64px;
+// background: #ef4040;
+// }
 
 `;
 

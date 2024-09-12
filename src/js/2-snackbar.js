@@ -71,14 +71,14 @@ body {
     height: 40px;
     padding: 8px 16px
     }
-   
+
 .form input[name="delay"]:hover {
     border: 1px solid #4e75ff;
     border-radius: 4px;
     width: 360px;
     height: 40px;
     }
-    
+
 .form input[name="state"] {
 
 }
@@ -103,6 +103,7 @@ fieldset {
 }
 
 button {
+border: none;
 border-radius: 8px;
 padding: 8px 16px;
 width: 360px;
@@ -116,13 +117,15 @@ color: #fff;
 }
 
 button:hover {
+border: none;
 background: #6c8cff;
 font-weight: 500;
-font-size: 16px;
+font-size: 16px;    
 line-height: 150%;
 letter-spacing: 0.04em;
 color: #fff;
 }
+
 `;
 
 const styleSheet = document.createElement('style');
